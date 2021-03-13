@@ -98,19 +98,7 @@ async def start(bot, cmd):
 		await cmd.reply_text(
 			HOME_TEXT.format(cmd.from_user.first_name, cmd.from_user.id),
 			parse_mode="Markdown",
-			disable_web_page_preview=True,
-			reply_markup=InlineKeyboardMarkup(
-				[
-					[
-						InlineKeyboardButton("Support Group", url="https://t.me/linux_repo"),
-						InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
-					],
-					[
-						InlineKeyboardButton("About Bot", callback_data="aboutbot"),
-						InlineKeyboardButton("About Dev", callback_data="aboutdevs")
-					]
-				]
-			)
+			disable_web_page_preview=True
 		)
 	else:
 		if Config.UPDATES_CHANNEL:
