@@ -98,7 +98,8 @@ async def start(bot, cmd):
 		await cmd.reply_text(
 			HOME_TEXT.format(cmd.from_user.first_name, cmd.from_user.id),
 			parse_mode="Markdown",
-			disable_web_page_preview=True
+			disable_web_page_preview=True,
+			reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Join Channel", url="https://t.me/moviezzclub"), InlineKeyboardButton("Developer", url="https://t.me/EnginAltanDzyatan")]])
 		)
 	else:
 		if Config.UPDATES_CHANNEL:
