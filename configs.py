@@ -13,18 +13,17 @@ class Config(object):
 	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
 	LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL"))
 	ABOUT_BOT_TEXT = f"""
-This is permanent file store bot 
-send any valid media to get its link.Give a try by sending media 
-**BY : @Moviezzclub**
+This is a Permanent File Store Bot 
+Send me any TELEGRAM file and I'll store it and generate a permanent shareable link!! ❤️
+**BY : @CyrusProjects**
+**FOR: @Flix_movies_lk
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:** @itseleven011
+🧑🏻‍💻 **Owner:** @cyrusexplode
 
-Developer is Super Noob. Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive.
+I am not the person that coding the source code of this bot. So credits goes to him, that the creator of this bot's source code.
 
-Also remember that developer will Delete Adult Contents from Database. So better don't Store Those Kind of Things.
-
-[Donate Now](https://www.paypal.me/AbirHasan2005) (PayPal)
+[Donate Now](https://www.paypal.me/slpres) (PayPal)
 """
 	HOME_TEXT = """
 Hi, [{}](tg://user?id={})\n\n.
